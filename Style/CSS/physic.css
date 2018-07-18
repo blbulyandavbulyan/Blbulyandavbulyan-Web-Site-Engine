@@ -1,0 +1,49 @@
+section h1:nth-of-type(1){
+	text-shadow:0px -3px 1px #FFF, -1px 2px 1px #FFF;
+	color:red;
+}
+section h2:nth-of-type(1){
+	color:red;
+	text-shadow:-1px -2px 3px #0000FF, 0px 2px 3px #0000FF;
+}
+section h2:nth-of-type(2){
+	color:#FF6600;
+	text-shadow:2px -2px 0 #0000CC, -2px 2px 0 #0000CC;
+}
+.mb{
+	margin-top:7px;
+}
+.ph{
+	color:#0000CC;
+	text-shadow:1px 2px 1px #FF0000, -1px -2px 1px #FF0000;
+}
+.comp{
+	color:#000;
+	text-shadow:-1px 2px 2px #FF0000, 0px -2px 2px #FF0000, 0px 3px 3px #0000CC, -1px -3px 2px #0000CC;
+}
+#el{
+	margin-bottom:0px;
+	color:#00FF00;
+	text-shadow:2px -2px 3px #0000CC, -1px 2px 4px #0000CC;
+}
+#e1{
+	margin-top:-5px;
+	color:#FF0066;
+	text-shadow:1px -2px 1px #0000CC, -1px 2px 1px #0000CC;
+}
+#e2{
+	color:#CC0000;
+	text-shadow:0px -2px 2px #0000CC, 0px 2px 2px #0000CC;
+}
+#e3{
+	color:#FF3300;
+	text-shadow:-2px -2px 1px #0000CC, 2px 2px 1px #0000CC;
+}
+#pl1{
+	color:#660066;
+	text-shadow:2px -2px 2px #FFCC00, -2px 2px 2px #FFCC00;
+}
+#pl2{
+	color:#66CCFF;
+	text-shadow:-1px -2px 3px #FF0000, 1px 2px 3px #FF0000;
+}

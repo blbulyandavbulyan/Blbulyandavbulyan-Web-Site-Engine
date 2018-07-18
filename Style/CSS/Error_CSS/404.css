@@ -1,0 +1,67 @@
+@import url(/Style/CSS/Error_CSS/FontCSS/font.css) all;
+html, body{
+	height:100%;
+	width: 100%;
+	overflow:hidden;
+}
+body{
+	background:fixed black no-repeat;
+	background-image: url("/Style/Image/Error/404.png"), url("/Style/Image/Error/Fon404.png");
+    -moz-background-size:100% 100%; /* Firefox 3.6+ */
+    -webkit-background-size:100% 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size:100%; /* Opera 9.6+ */
+    background-size:100% 100%;
+	margin:8px 4px;	
+}
+h2{
+	text-align: center;
+	color:white;
+	font-family: 'Prosto One', cursive;
+	text-shadow:-3px 2px 2px #0000CC, -2px -3px 2px #0000CC, 3px 2px 2px #0000CC, -2px -2px 2px #0000CC, -1px 3px 2px #0000CC, -4px 2px 2px #0000CC, -4px -1px 2px #0000CC, 2px -2px 2px #0000CC;
+}
+h2:hover{
+	text-shadow:-3px 2px 2px red, -2px -3px 2px red, 3px 2px 2px red, -2px -2px 2px red, -1px 3px 2px red, -4px 2px 2px red, -4px -1px 2px red, 2px -2px 2px red;
+	color:black;
+	transition:color .5s ease-in .1s;
+}
+p{
+	text-align:center;
+	color:white;
+	font-family: 'Gabriela', serif;
+	font-size:1.5em;
+	font-weight:bold;
+}
+#sp1{
+	color:black;
+	text-shadow:1px -2px 2px red, -1px 2px 2px red, -2px -1px 2px red;
+}
+#sp1:hover{
+	text-shadow:1px -2px 2px white, -1px 2px 2px white, -2px -1px 2px white;
+	transition:text-shadow .5s ease-in .1s;
+}
+a:link {
+	text-decoration:none; 
+	color:#0000CC;
+	text-shadow:1px -2px 0px #FF0000, -1px 2px 0px #FF0000, -2px -2px 0px #FF0000, 2px 2px 0px #FF0000;
+} 
+a:active {	
+	text-decoration:none; 
+	color:#0000CC;
+}
+	
+a:visited {
+	text-decoration:none; 
+	color:#0000CC;
+}
+	
+a:hover {
+	text-decoration:none; 
+	color:#CC0000;
+	text-shadow:1px -2px 2px #0000CC, -1px 2px 2px #0000CC;
+}
+a:hover::after{
+content: ']';
+}
+ a:hover::before{
+ content: '['; 
+ }

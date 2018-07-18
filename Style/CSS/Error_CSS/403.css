@@ -1,0 +1,61 @@
+@import url(/Style/CSS/Error_CSS/FontCSS/font.css) all;
+body{
+	background: fixed url(/Style/Image/Error/dog.png) top center no-repeat, fixed url(/Style/Image/Fon4.png) repeat, black;
+	-moz-background-size:100% 100%; /* Firefox 3.6+ */
+    -webkit-background-size:100% 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size:100%; /* Opera 9.6+ */
+    background-size:100% 100%;
+	height:100%;
+	width:100%;
+	overflow-x:hidden;
+}
+h2{
+	text-align: center;
+	color:black;
+	font-family: 'Prosto One', cursive;
+	text-shadow: 1px -2px 2px #0000CC, -1px 2px 2px #0000CC;
+}
+h2:hover{
+	text-shadow: -3px 2px 2px white, -2px -2px 2px white, 3px -2px 2px white, 1px 2px 2px white, 1px -3px 2px white;
+	transition:text-shadow .5s ease-in .1s;
+}
+p{
+	text-align:center;
+	color:white;
+	font-family: 'Gabriela', serif;
+	font-size:1.5em;
+	font-weight:bold;
+}
+#sp1{
+		text-shadow:1px -2px 2px red, -1px 2px 2px red;
+}
+#sp1:hover{
+	text-shadow:1px -2px 2px #0000CC, -1px 2px 2px #0000CC;
+	color:red;
+	transition:text-shadow .5s ease-in .1s, color .5s ease-in .1s;
+}
+a:link {
+	text-decoration:none; 
+	color:#e22b2b;
+} 
+a:active {	
+	text-decoration:none; 
+	color:#e22b2b;
+}
+	
+a:visited {
+	text-decoration:none; 
+	color:#0000CC;
+}
+	
+a:hover {
+	text-decoration:none; 
+	color:#CC0000;
+	text-shadow:1px -2px 2px #0000CC, -1px 2px 2px #0000CC;
+}
+a:hover::after{
+content: ']';
+}
+ a:hover::before{
+ content: '['; 
+ }

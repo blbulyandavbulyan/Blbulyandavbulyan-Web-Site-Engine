@@ -1,0 +1,98 @@
+/* latin */
+@font-face {
+  font-family:'Comfortaa';
+  font-style:normal;
+  font-weight:400;
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'),
+	url(/Style/Fonts/Comfortaa/Comfortaa.latin.svg) format("svg"),
+	url(/Style/Fonts/Comfortaa/Comfortaa.latin.woff2) format('woff2'), 
+	url(/Style/Fonts/Comfortaa/Comfortaa.latin.ttf) format('ttf'),
+	url(/Style/Fonts/Comfortaa/Comfortaa.latin.eot) format('eot'),
+	url(/Style/Fonts/Comfortaa/Comfortaa.latin.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+  font-family:'Lobster';
+  font-style:normal;
+  font-weight:400;
+  src: local('Lobster'), local('Lobster-Regular'),
+	url(/Style/Fonts/Lobster/Lobster.latin.svg) format("svg"),
+	url(/Style/Fonts/Lobster/Lobster.latin.woff2) format('woff2'), 
+	url(/Style/Fonts/Lobster/Lobster.latin.ttf) format('ttf'),
+	url(/Style/Fonts/Lobster/Lobster.latin.eot) format('eot'),
+	url(/Style/Fonts/Lobster/Lobster.latin.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+  font-family:'Pattaya';
+  font-style:normal;
+  font-weight:400;
+  src: local('Pattaya'), local('Pattaya-Regular'),
+	url(/Style/Fonts/Pattaya/Pattaya.latin.svg) format("svg"),
+	url(/Style/Fonts/Pattaya/Pattaya.latin.woff2) format('woff2'), 
+	url(/Style/Fonts/Pattaya/Pattaya.latin.ttf) format('ttf'),
+	url(/Style/Fonts/Pattaya/Pattaya.latin.eot) format('eot'),
+	url(/Style/Fonts/Pattaya/Pattaya.latin.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face {
+  font-family:'Philosopher';
+  font-style:normal;
+  font-weight:400;
+  src: local('Philosopher Regular'), local('Philosopher-Regular'),
+	url(/Style/Fonts/Philosopher/Philosopher.svg) format("svg"),
+	url(/Style/Fonts/Philosopher/Philosopher.latin.woff2) format('woff2'), 
+	url(/Style/Fonts/Philosopher/Philosopher.latin.ttf) format('ttf'),
+	url(/Style/Fonts/Philosopher/Philosopher.latin.eot) format('eot'),
+	url(/Style/Fonts/Philosopher/Philosopher.latin.woff) format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* Cyrilic */
+@font-face {
+  font-family:'Comfortaa';
+  font-style:normal;
+  font-weight:400;
+  src: local('Comfortaa Regular'), local('Comfortaa-Regular'),
+	url(/Style/Fonts/Comfortaa/Comfortaa.cyr.svg) format("svg"),
+	url(/Style/Fonts/Comfortaa/Comfortaa.cyr.woff2) format('woff2'), 
+	url(/Style/Fonts/Comfortaa/Comfortaa.cyr.ttf) format('ttf'),
+	url(/Style/Fonts/Comfortaa/Comfortaa.cyr.eot) format('eot'),
+	url(/Style/Fonts/Comfortaa/Comfortaa.cyr.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family:'Pattaya';
+  font-style:normal;
+  font-weight:400;
+  src: local('Pattaya'), local('Pattaya-Regular'),
+	url(/Style/Fonts/Pattaya/Pattaya.cyr.svg) format("svg"),
+	url(/Style/Fonts/Pattaya/Pattaya.cyr.woff2) format('woff2'), 
+	url(/Style/Fonts/Pattaya/Pattaya.cyr.ttf) format('ttf'),
+	url(/Style/Fonts/Pattaya/Pattaya.cyr.eot) format('eot'),
+	url(/Style/Fonts/Pattaya/Pattaya.cyr.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family:'Philosopher';
+  font-style:normal;
+  font-weight:400;
+  src: local('Philosopher Regular'), local('Philosopher-Regular'),
+	url(/Style/Fonts/Philosopher/Philosopher.cyr.svg) format("svg"),
+	url(/Style/Fonts/Philosopher/Philosopher.cyr.woff2) format('woff2'), 
+	url(/Style/Fonts/Philosopher/Philosopher.cyr.ttf) format('ttf'),
+	url(/Style/Fonts/Philosopher/Philosopher.cyr.eot) format('eot'),
+	url(/Style/Fonts/Philosopher/Philosopher.cyr.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family:'Lobster';
+  font-style:normal;
+  font-weight:400;
+  src: local('Lobster'), local('Lobster-Regular'), 
+	url(/Style/Fonts/Lobster/Lobster.cyr.svg) format("svg"),
+	url(/Style/Fonts/Lobster/Lobster.cyr.woff2) format('woff2'), 
+	url(/Style/Fonts/Lobster/Lobster.cyr.ttf) format('ttf'),
+	url(/Style/Fonts/Lobster/Lobster.cyr.eot) format('eot'),
+	url(/Style/Fonts/Lobster/Lobster.cyr.woff) format('woff');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}

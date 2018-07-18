@@ -1,0 +1,174 @@
+@import url(/Style/CSS/FontCSS/font.css) all;
+body{
+background:fixed black url("/Style/Image/Fon.png") no-repeat;
+	color:white;
+	-moz-background-size:100% 100%; /* Firefox 3.6+ */
+	-webkit-background-size:100% 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size:100%; /* Opera 9.6+ */
+	background-size:100% 100%;
+	margin:8px 4px;	
+}
+h3 {
+    font-size:1.2em;
+    font-weight:bold;
+}
+h1{
+	text-align:center;
+}
+p{
+	/*font-family: 'Marmelad', sans-serif;*/
+	font-family:'Comfortaa', cursive;
+	font-size:17px;
+	text-align:center;
+	color:red;
+	-webkit-font-smoothing:subpixel-antialiased;
+	font-weight:bold;
+}
+.blue{
+	height:4px; /* высота / толщина линии */
+    background:blue; /* фон / цвет линии */
+    border:0px; /* рамка вокруг разделительной линии (уберем ее) */
+	border-radius:10px;
+    margin:5px 0 5px 0; /* отступ над и под линией 5 пикселей */
+	box-shadow:2px 4px 15px rgba(0,0,255,.7), 2px -4px 15px rgba(0,0,255,.7);
+}
+.red{
+	border-radius:10px;
+    height:4px; /* высота / толщина линии */
+    background:red; /* фон / цвет линии */
+    border:0; /* рамка вокруг разделительной линии (уберем ее) */
+    margin:5px 0 5px 0; /* отступ над и под линией 5 пикселей */
+	box-shadow:2px 4px 15px rgba(255,0,0,.7), 2px -4px 15px rgba(255,0,0,.7);
+}
+.orange{
+	border-radius:10px;
+	height:4px; /* высота / толщина линии */
+    background:rgb(255,51,0); /* фон / цвет линии */
+    border:0; /* рамка вокруг разделительной линии (уберем ее) */
+    margin:5px 0 5px 0; /* отступ над и под линией 5 пикселей */
+	box-shadow:2px 4px 15px rgba(255,51,0,.7), 2px -4px 15px rgba(255,51,0,.7);
+}
+.green{
+	border-radius:10px;
+	height:4px; /* высота / толщина линии */
+    background: rgb(0,128,0); /* фон / цвет линии */
+    border:0; /* рамка вокруг разделительной линии (уберем ее) */
+    margin:5px 0 5px 0; /* отступ над и под линией 5 пикселей */
+	box-shadow:2px 4px 15px rgba(0,128,0,.7), 2px -4px 15px rgba(0,128,0,.7);
+}
+.yellow{
+	border-radius:10px;
+	height:4px; /* высота / толщина линии */
+    background:rgb(255,255,0); /* фон / цвет линии */
+    border:0; /* рамка вокруг разделительной линии (уберем ее) */
+    margin:5px 0 5px 0; /* отступ над и под линией 5 пикселей */
+	box-shadow:2px 4px 15px rgba(255,255,0,.7), 2px -4px 15px rgba(255,255,0,.7);
+}
+.purple{
+	border-radius:10px;
+	height:4px; /* высота / толщина линии */
+    background: rgb(128,0,128); /* фон / цвет линии */
+    border:0; /* рамка вокруг разделительной линии (уберем ее) */
+    margin:5px 0 5px 0; /* отступ над и под линией 5 пикселей */
+	box-shadow:2px 4px 15px rgba(128,0,128,.7), 2px -4px 15px rgba(128,0,128,.7);
+}
+.aqua{
+	border-radius:4px;
+	height:4px; /* высота / толщина линии */
+    background:rgb(102,204,255); /* фон / цвет линии */
+    border:0; /* рамка вокруг разделительной линии (уберем ее) */
+    margin:5px 0 5px 0; /* отступ над и под линией 5 пикселей */
+	box-shadow:2px 4px 15px rgba(102,204,255,.7), 2px -4px 15px rgba(102,204,255,.7);
+}
+.black{
+	border-radius:4px;
+	height:4px; /* высота / толщина линии */
+    background:#000; /* фон / цвет линии */
+    border:0; /* рамка вокруг разделительной линии (уберем ее) */
+    margin:5px 0 5px 0; /* отступ над и под линией 5 пикселей */
+	box-shadow:2px 4px 15px rgba(255,0,0,.7), 2px -4px 15px rgba(255,0,0,.7), 1px 9px 15px rgba(0,0,255,.7), 1px -9px 15px rgba(0,0,255,.7);
+}
+.pd{
+	font-family:'Philosopher', sans-serif;
+	font-weight:bold;
+	color:#FF0000;
+	text-shadow:0px -2px 1px #0000CC, 0px 2px 1px #0000CC;
+	text-align:center;
+}
+h1, h2, h3{
+	font-family:'Pattaya', sans-serif;
+}
+h1{
+	font-size:1.9em;
+}
+.nav > h3{
+	font-size:25px;
+	color:red;
+	margin-top:0px;
+	font-family:'Lobster', cursive;
+	display:inline;
+}
+.spa{
+	font-weight:bold;
+	font-size:25px;
+	color:red;
+	margin-left:4px;
+	margin-right:4px;
+}
+.nav{
+	width:100%;
+	position:fixed;
+	text-align:center;
+	margin-top:-2px;
+}
+.nav a{
+	text-shadow:1px 1px 2px #FFF, -1px -1px 2px #FFF;
+}
+.nav a:link{
+	text-decoration:none; 
+	color:#0000CC;
+} 
+.nav a:active{	
+	text-decoration:none; 
+	color:#0000CC;
+}
+	
+.nav a:visited{
+	text-decoration:none; 
+	color:#0000CC;
+}
+	
+.nav a:hover{
+	text-decoration:none; 
+	color:#FF0000;
+	text-shadow:1px 1px 2px #0000CC, -1px -1px 2px #0000CC, 2px 2px 2px #FFF, -2px -2px 2px #FFF;
+	transition:text-shadow .5s cubic-bezier(0.28, 1.52, 1, 1.47) .1s, color .5s ease-out .1s;
+}
+a:link{
+	text-decoration:none; 
+	color:#ff2500;
+} 
+a:active{	
+	text-decoration:none; 
+	color:#ff2500;
+}
+	
+a:visited{
+	text-decoration:none; 
+	color:#00FF00;
+}
+	
+p a:hover{
+	color:#CC0000;
+	text-shadow:-1px -2px 2px #0000CC, 0px 2px 2px #0000CC;
+	transition: color .5s linear .1s;
+}
+div.error{
+	font-size:50px;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:20px;
+	color:red;
+	border:solid 5px red;
+	border-radius:33px;
+}

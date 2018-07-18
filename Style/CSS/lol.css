@@ -1,0 +1,29 @@
+section h1{
+	text-shadow:1px -2px 3px #FFFF00, -1px 2px 3px #FFFF00;
+	color:red;
+}
+h2.music {
+	color:yellow;
+	text-shadow:1px -3px 3px #FF0000, 3px 2px 3px #FF0000;
+	margin-top:2px;
+	margin-bottom:4px;
+}
+h2{
+	text-align:center;
+}
+h2.entertainment{
+	color:#FF0066;
+	text-shadow:2px 2px 2px #0000CC, -2px -2px 0px #0000CC;
+	margin-top:2px;
+	margin-bottom:4px;
+}
+h3.music{
+	color:blue;
+	text-shadow:-1px -3px 3px #f7e609, -1px 3px 3px #FF0000;
+	margin-top:2px;
+}
+h3.entertainment{
+	color:red;
+	text-shadow:1px -3px 3px #0000CC, -1px 3px 3px #0000CC;
+	margin-top:2px;
+}

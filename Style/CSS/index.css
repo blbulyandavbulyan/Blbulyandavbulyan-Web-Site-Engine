@@ -1,0 +1,41 @@
+html, body{
+	width:100%;
+	height:100%;
+	overflow-x: hidden;
+}
+#body3{
+	background:fixed black url("/Style/Image/Fon3.png") no-repeat;
+    -moz-background-size:100% 100%; /* Firefox 3.6+ */
+    -webkit-background-size:100% 100%; /* Safari 3.1+ и Chrome 4.0+ */ 
+	-o-background-size:100%; /* Opera 9.6+ */
+    background-size:100% 100%;
+	margin:8px 4px;
+}
+#body3 .nav a:link {
+	text-decoration:none; 
+	color:#00FF00;
+} 
+#body3 .nav a{
+	text-shadow:1px -2px 2px #0000CC, -1px 2px 2px #0000CC;
+}
+#body3 .nav a:active {	
+	text-decoration:none; 
+	color:#FFF;
+}	
+#body3 .nav a:visited {
+	text-decoration:none; 
+	color:#00FF00;
+}
+	
+#body3 .nav a:hover {
+	text-decoration:none; 
+	color:white;
+	text-shadow:1px -2px 2px #0000CC, -1px 2px 2px #0000CC, 1px -4px 2px red, 0px 4px 2px red;
+	transition:color 1s ease-in .1s;
+}
+.pd{
+	position:absolute;
+	bottom:4px;
+	width: 100%;
+	height: 20px;
+}

@@ -2,7 +2,7 @@
 <?php 
 	/*
 	Copyright Blbulyan Software
-	This software is distributed under the GNU GPL v2
+	This software is distributed under the GNU GPL v3
 	This software was developed by one Russian schoolboy.
 	All proposals for its development are accepted, criticism is welcomed.
 	*/

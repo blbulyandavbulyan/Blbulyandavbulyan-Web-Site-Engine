@@ -7,9 +7,9 @@
 	$index_style_title = "Список каналов и сайтов.";// строка, которая будет использованна в качестве значения тега title на главной странице
 	$index_icon_href = "/Style/Icon/favicon.ico";// путь к файлу с иконкой для главной страницы
 	$default_icon_href = "/Style/Icon/default.ico";// путь к иконке по умолчанию
-	$index_file_href = "/index.php";
+	$index_file_href = "/index.php";// путь к главной странице сайта
 	$icon_error_href = "/Style/Icon/Error/error.ico";// путь к иконке, которая отображаеться при возникновении ошибки
-	$icon_404_error_href = "/Style/Icon/Error/404.png";
+	$icon_404_error_href = "/Style/Icon/Error/404.png";// путь к иконке для ошибки 404
 	$icon_error_invalid_parametr_href = "/Style/Icon/error_invalid_parametr.ico";// путь к иконке, которая отображаеться при возникновении ошибки: неверный параметр
 	$default_charset = "UTF-8";// кодировка, значение этой переменной будут вписаны в тег meta атрибут charset
 	$show_footer = true;// показывать ли подвал (тег footer)

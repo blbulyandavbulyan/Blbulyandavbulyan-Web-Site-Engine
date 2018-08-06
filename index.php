@@ -1,19 +1,22 @@
+<?php  require_once $_SERVER['DOCUMENT_ROOT'] . 'config/config.php'; require_once $_SERVER['DOCUMENT_ROOT'] . 'config/db.php'; require_once $_SERVER['DOCUMENT_ROOT'] . 'lib/functions.php'; ?>
 <!DOCTYPE html>
 <html id="htm" lang="ru">
 	<head>
-		<meta charset="UTF-8">
-		<title>Список каналов и сайтов.</title>
-		<link type="text/css" rel="stylesheet" href="/Style/CSS/main.css">
-		<link type="text/css" rel="stylesheet" href="/Style/CSS/index.css">
-		<link rel="icon" href="Style/Icon/favicon.ico" type="image/x-icon">
-		<link rel="shortcut icon" href="/Style/Icon/favicon.ico" type="image/x-icon">
+		<meta charset="<?php echo $default_charset?>">
+		<title><?php echo $index_style_title ?></title>	
+		<link type="text/css" rel="stylesheet" href="<?php echo $root_style_file_href?>">
+		<link type="text/css" rel="stylesheet" href="<?php echo $index_style_file_href ?>">
+		<link rel="icon" href="<?php echo $index_icon_href ?>" type="image/x-icon">
+		<link rel="shortcut icon" href="<?php echo $index_icon_href ?>" type="image/x-icon">
 	</head>
 	<body id="body3">
 		<nav class="nav">
-			<?php require 'config/db.php'; require 'lib/functions.php';
-				echo  GenerateCategoryOutputSecure($pdo, "SELECT * FROM `categories` WHERE :param", array('param' => 1));
+			<?php
+				echo GenerateCategoryOutput($pdo, "SELECT * FROM `categories` WHERE :param", array('param' => 1));
 			?>
 		</nav>
-		<footer class="pd" id="pd3">© Давид Блбулян<br>blbulyandavbulyan@gmail.com</footer>
+		<?php if($show_footer === true):?>
+		<footer class="pd" id="pd3"><?php echo $footer_value ?></footer>
+		<?php endif;?>
 	</body>
 </html>

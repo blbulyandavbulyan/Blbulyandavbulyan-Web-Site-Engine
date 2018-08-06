@@ -14,7 +14,7 @@
 			<input type="text" name="UserToken" placeholder="Ваш токен для регистрации">
 			<input type="submit" name="submit" placeholder="Зарегистрироваться">
 		</form>
-		<?php require $_SERVER['DOCUMENT_ROOT'] . '/config/db.php'; require $_SERVER['DOCUMENT_ROOT'] . '/lib/functions.php';  require $_SERVER['DOCUMENT_ROOT'] . '/config/mail.php'; 
+		<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/config/db.php'; require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/functions.php';  require_once $_SERVER['DOCUMENT_ROOT'] . '/config/mail.php'; 
 			if(isset($_POST['submit']){
 				if(isset($_POST['UserName'], $_POST['UserEmail'], $_POST['UserFirstName'], $_POST['UserLastName'], $_POST['UserFirstPassword'], $_POST['UserLastPassword'], $_POST['UserToken'])){
 					//начало обработки входных данных

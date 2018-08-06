@@ -5,7 +5,7 @@
 		<title>Вход</title>
 	</head>
 	<body>
-		<?php require $_SERVER['DOCUMENT_ROOT'] . '/config/db.php'; require $_SERVER['DOCUMENT_ROOT'] . '/lib/functions.php';  require $_SERVER['DOCUMENT_ROOT'] . '/config/mail.php';
+		<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/config/db.php'; require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/functions.php';  require_once $_SERVER['DOCUMENT_ROOT'] . '/config/mail.php';
 		if(isset($_SESSION['logged_user']) && !isset($_SESSION['UserVerifyCode'])):?>
 			<?php header('Location: index.html'); ?>
 		<?php else if(!isset($_SESSION['logged_user']) || !isset($_SESSION['UserVerifyCode'])):?>

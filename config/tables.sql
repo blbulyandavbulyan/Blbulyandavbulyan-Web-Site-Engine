@@ -34,6 +34,8 @@ CREATE TABLE subcategories(
 	`HTMLid` varchar(255), /*HTML ИД для подкатегории*/
 	`HRClass` varchar(255),/*Класс горизонтальной черты которая идёт после данной подкатегории*/
 	`HRid` varchar(255),/*ИД горизонтальной черты которая идёт после данной подкатегории*/
+	`SubcategoryStyleHref` varchar(255),/*Ссылка на файл стилей для подкатегории*/
+	`SubcategoryIconHref` varchar(255),/*Ссылка на файл иконки для подкатегории*/
 	PRIMARY KEY (SubcategoryID)
 );
 CREATE TABLE subsubcategories(
@@ -46,6 +48,8 @@ CREATE TABLE subsubcategories(
 	`HTMLid` varchar(255), /*HTML ИД для подподкатегории*/
 	`HRClass` varchar(255),/*Класс горизонтальной черты которая идёт после данной подподкатегории*/
 	`HRid` varchar(255),/*ИД горизонтальной черты которая идёт после данной подподкатегории*/
+	`SubsubcategoryStyleHref` varchar(255),/*Ссылка на файл стилей для подподкатегории*/
+	`SubsubcategoryIconHref` varchar(255),/*Ссылка на файл иконки для подподкатегории*/
 	PRIMARY KEY (SubsubcategoryID)
 );
 /*Таблица с сообщениями*/
@@ -86,8 +90,9 @@ CREATE TABLE tokens(
 	`IsTheTokenUsed` boolean,/*Использован ли токен*/
 	PRIMARY KEY (TokenID) 
 );
+/*
 CREATE TABLE logs(
 	`EventID` int NOT NULL AUTO_INCREMENT,
 	`EventText` varchar(1000) NOT NULL,
 	`
-);
+);*/
